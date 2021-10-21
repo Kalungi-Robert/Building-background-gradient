@@ -1,0 +1,88 @@
+html, body { position:relative; z-index:1; min-width:1024px; height:100%; background:#fff; }
+body { min-height:830px; *height:830px; max-height:1472px; }
+
+#globalheader { top:18px; margin:0 auto; }
+
+.center { display:block; margin-right:auto; margin-left:auto; text-align:center; }
+.full { position:absolute; top:0; right:0; bottom:0; left:0; color:transparent; font-size:0; line-height:0; *background:url(https://web.archive.org/web/20140301004301im_/http://images.apple.com/global/elements/blank.gif); }
+.hide { display:none; }
+
+
+/* cta links */
+.cta { position:relative; z-index:10; overflow:hidden; height:31px; }
+.cta a { display:inline-block; margin:0 18px 25px; height:29px; }
+.cta a:hover,
+.cta a:active { margin-top:-32px; }
+.cta a .medium { display:inline-block; }
+.cta a .large { display:none; }
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:portrait) { /* iphone portrait */
+	.cta { height:55px; }
+	.cta a { display:block; clear:both; margin-right:auto; margin-left:auto; height:55px; }
+	.cta a:hover,
+	.cta a:active { margin-top:-56px; }
+	.cta a .medium { display:none; }
+	.cta a .large { display:inline-block; }
+}
+
+
+/* promos */
+.promos { position:absolute; z-index:1; bottom:90px; overflow:hidden; width:100%; height:200px; }
+.promos ul { position:relative; z-index:1; overflow:hidden; margin:0 auto; min-width:1024px; width:100%; max-width:1440px; height:200px; text-align:center; }
+.promos ul li { position:relative; z-index:1; float:left; overflow:hidden; margin:0; width:25%; height:200px; }
+.promos ul li + li + li + li { margin-right:-.3%; *margin-right:-.5%; width:25.3%; }
+
+.promos ul li a { position:absolute; z-index:1; top:0; right:0; bottom:0; left:0; display:block; overflow:hidden; cursor:pointer; }
+.promos ul li + li a { border-left:2px solid #fff; }
+
+.promos ul li a img { position:absolute; z-index:1; left:50%; margin-left:-182px; }
+
+.promos ul li a.left img { left:0; }
+.promos ul li a.right img { right:0; left:auto; }
+
+
+/* banner */
+.banner { width:100%; height:60px; }
+.banner img { display:block; margin:0 auto; }
+
+
+/* homefooter */
+#homefooter { position:absolute; z-index:1; right:0; bottom:0; left:0; margin:0; min-width:980px; width:100%; height:90px; padding:0; color:#6e6e6e; font-size:.8334em; line-height:1.2; text-align:center; zoom:1; }
+#homefooter .wrapper { margin:0 auto; width:980px; padding:1em 0 2.6em; }
+#homefooter .wrapper:after { content:'.'; display:block; visibility:hidden; clear:both; height:0; }
+
+#homefooter .left { float:left; clear:both; width:49%; padding-top:1.5em; text-align:left; }
+#homefooter .right { float:right; width:51%; padding-top:1.5em; text-align:right; }
+
+#homefooter p,
+#homefooter ul,
+#homefooter ul li { display:inline; margin:0; }
+
+#homefooter .piped li { display:inline-block; *display:inline; float:none; margin-left:.6em; padding-left:.6em; border-left:1px solid #ccc; }
+#homefooter .piped li.first { margin-left:0; padding-left:0; border-left:none; }
+#homefooter .piped a { display:inline-block; margin:0; padding:0; border:none; }
+
+#homefooter .piped .worldwide { position:relative; z-index:1; width:16px; height:12px; zoom:1; }
+#homefooter .piped .worldwide img { position:absolute; z-index:1; top:-2px; left:7px; }
+
+/*
+     FILE ARCHIVED ON 00:43:01 Mar 01, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:38:54 Sep 24, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 229.644
+  exclusion.robots: 0.091
+  exclusion.robots.policy: 0.083
+  RedisCDXSource: 6.301
+  esindex: 0.008
+  LoadShardBlock: 200.51 (3)
+  PetaboxLoader3.datanode: 373.64 (5)
+  CDXLines.iter: 17.99 (3)
+  load_resource: 461.562 (2)
+  PetaboxLoader3.resolve: 151.558 (2)
+*/

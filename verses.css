@@ -1,0 +1,56 @@
+body { min-width:1024px; }
+.main { top:-72px; overflow:hidden; width:1024px; margin-bottom:-72px; font-size:1.333em; line-height:1.85; }
+.main sup { top:-.5em; color:inherit; }
+.main .registered { position:relative; z-index:1; top:-.5em; padding-left:1px; line-height:1.5; font-size:12px; font-family:Helvetica, Arial, Verdana, sans-serif; }
+
+.center { margin:0 auto; text-align:center; }
+
+.button { display:inline-block; padding:5px 28px; border:1px solid #08c; border-radius:3px; font-size:0.75em; }
+.button.gray { border-color:#888; color:#888; }
+
+/* sosumi */
+.sosumi { margin:10px auto 18px; width:940px; padding:24px 20px 0; border-top:1px solid #e2e2e2; }
+.sosumi a { color:#333; }
+.sosumi ol { margin:0; padding-right:21px; padding-left:21px; }
+.sosumi ul { margin:0; }
+.sosumi li { padding-bottom:5px; }
+.sosumi small { font-size:1em; }
+
+/* video takeover */
+.moviePanel { position:relative; z-index:2; width:848px !important; height:480px !important; }
+.moviePanel + .close { position:absolute; z-index:1; top:0; right:0; bottom:0; left:0; background:#fff; }
+.moviePanel + .close span { position:absolute; z-index:1; top:40px; left:40px; width:30px; height:30px; background:#fff url(https://web.archive.org/web/20140225205601im_/http://images.apple.com/v/your-verse/a/images/close.png) no-repeat 0 0; background-size:30px 60px; }
+@media only screen and (min-device-width:768px) { /* desktop */
+	.moviePanel + .close span:hover { background-position:0 -30px; }
+}
+@media only screen { /* svg */
+	.moviePanel + .close span { background-image:url(/web/20140225205601im_/http://images.apple.com/v/your-verse/a/images/close.svg); }
+}
+@media only screen and (max-device-width:768px) { /* device */
+	body > .gallery-view { position:fixed; z-index:1; top:0; right:0; bottom:0; left:0; }
+	body > .gallery-view .gallery-content-movie { height:100% !important; padding-top:0 !important; }
+	body > .gallery-view .moviePanel { position:fixed; }
+	body > .gallery-view .moviePanel + .close { position:fixed; }
+}
+
+/*
+     FILE ARCHIVED ON 20:56:01 Feb 25, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:55:13 Sep 24, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 106.631
+  exclusion.robots: 0.26
+  exclusion.robots.policy: 0.239
+  RedisCDXSource: 0.888
+  esindex: 0.012
+  LoadShardBlock: 77.137 (3)
+  PetaboxLoader3.datanode: 82.575 (5)
+  CDXLines.iter: 23.603 (3)
+  load_resource: 112.426 (2)
+  PetaboxLoader3.resolve: 52.192 (2)
+*/
